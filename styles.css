@@ -108,7 +108,7 @@ a{color:inherit}
   background:
     radial-gradient(900px 500px at 18% 25%, rgba(0,0,0,.35), rgba(0,0,0,0) 60%),
     linear-gradient(180deg, rgba(0,0,0,.42), rgba(0,0,0,.18) 45%, rgba(0,0,0,.46)),
-    url("assets/hero.png") center/cover no-repeat;
+    url("hero.png") center/cover no-repeat;
   position:relative;
 }
 .hero__inner{
