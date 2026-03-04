@@ -47,7 +47,7 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 /* lockup */
 .lockup{display:flex;align-items:flex-start;gap:28px;}
 .lockup__shield{
-  width:400px; height:auto;
+  width:350px; height:auto;
   opacity:.98;
   filter:drop-shadow(0 22px 55px rgba(0,0,0,.72));
 }
