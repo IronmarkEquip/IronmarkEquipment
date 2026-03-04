@@ -7,7 +7,7 @@
   <meta name="description" content="Ironmark Equipment — Built for Work." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rajdhani:wght@400;500;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Rajdhani:wght@500;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -15,6 +15,7 @@
 <header class="topbar">
   <div class="wrap topbar__inner">
     <a class="brand" href="#top" aria-label="Ironmark Equipment home">
+      <img class="brand__mark" src="shield.png" alt="" />
       <div class="brand__stack">
         <div class="brand__name">IRONMARK</div>
         <div class="brand__sub">EQUIPMENT</div>
@@ -31,21 +32,24 @@
   </div>
 </header>
 
-<main id="top" class="hero">
+<main id="top" class="hero" role="img" aria-label="Excavator working at sunset">
   <div class="wrap hero__inner">
-    <div class="hero__lockup" aria-label="Ironmark hero lockup">
-      <div class="wordmark">
-        <div class="wordmark__ironmark">IRONMARK</div>
-        <div class="wordmark__equipment">
-          <span class="rule"></span>
-          <span class="equip">EQUIPMENT</span>
-          <span class="rule"></span>
-        </div>
-      </div>
+    <div class="hero__lockup">
+      <div class="lockup">
+        <img class="lockup__shield" src="shield.png" alt="" />
+        <div class="lockup__right">
+          <div class="wordmark__ironmark">IRONMARK</div>
+          <div class="wordmark__equipment">
+            <span class="rule"></span>
+            <span class="equip">EQUIPMENT</span>
+            <span class="rule"></span>
+          </div>
 
-      <div class="tagline">
-        <div class="tagline__text">Built for Work.</div>
-        <div class="tagline__line"></div>
+          <div class="tagline">
+            <div class="tagline__text">Built for Work.</div>
+            <div class="tagline__line"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
