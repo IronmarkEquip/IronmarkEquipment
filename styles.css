@@ -45,13 +45,13 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 .hero__lockup{width:min(980px,96vw);margin-left:2vw;transform:translateY(28px);}
 
 /* lockup */
-.lockup{display:flex;align-items:flex-start;gap:28px;}
+.lockup{display:flex;align-items:center;gap:28px;}
 .lockup__shield{
   width:300px; height:auto;
   opacity:.98;
   filter:drop-shadow(0 22px 55px rgba(0,0,0,.72));
 }
-.lockup__right{min-width:0}
+.lockup__right{min-width:0;transform: TranslateY(6xp)}
 
 /* wordmark */
 .wordmark__ironmark{
