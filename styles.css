@@ -43,7 +43,7 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
     url("hero.png") center/cover no-repeat;
 }
 .hero__inner{min-height:calc(100vh - 92px);display:flex;align-items:center;justify-content:center;}
-.hero__lockup{width:min(980px,96vw);margin-left:2vw;transform:translateY(28px);}
+.hero__lockup{width:min(980px,96vw);margin:0 auto;transform:translateY(28px);}
 
 /* lockup */
 .lockup{display:flex;align-items:center;gap:18px;}
