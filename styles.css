@@ -84,14 +84,14 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 
 /* contact */
 .card--contact{padding-bottom:22px;}
-.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:26px;align-items:center;}
+.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:26px;align-items:start;}
 .form label{display:block;margin-bottom:12px;}
 .form span{display:block;font-size:12px;letter-spacing:.06em;color:rgba(238,240,242,.70);margin-bottom:6px;}
 input,textarea{width:100%;border-radius:12px;border:1px solid rgba(255,255,255,.10);background:rgba(0,0,0,.22);color:rgba(238,240,242,.92);padding:12px;outline:none;}
 textarea{resize:vertical}.form__row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
 .btn--form{margin-top:10px;width:220px;}
 .blurb{background:rgba(0,0,0,.16);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px 18px 16px;}
-.blurb p{margin:0 0 10px 0;color:rgba(238,240,242,.80);}
+.blurb p{margin:0 0 6px 0;color:rgba(238,240,242,.80);}
 .blurb p b{color:rgba(238,240,242,.95);}
 .footerline{margin-top:20px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:center;align-items:center;gap:28px;flex-wrap:wrap;text-align:center;color:rgba(238,240,242,.78);}
 .footerline b{color:rgba(238,240,242,.96);}
