@@ -56,16 +56,16 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 
 /* wordmark */
 .wordmark__ironmark{
-  font-family:Oswald,Inter,sans-serif;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  font-family:Oswald,Inter,sans-serif;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
   font-size:92px;line-height:1.0;
-  background:linear-gradient(to bottom,#ffffff 0%,#f7f9fb 10%,#d7dde3 30%,#aeb6bf 48%,#7f8892 52%, #cfd6dd 70%, #f5f7fa 88%, #ffffff 100%);
+  background:linear-gradient(to bottom,#ffffff 0%,#f8fafc 18%,#e4e9ee 40%,#cfd6dd 60%,#f5f7fa 85%, #ffffff 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  text-shadow:0 1px 0 rgba(255,255,255,.25),0 2px 0 rgba(0,0,0,.35),0 8px 18px rgba(0,0,0,.55),0 18px 45px rgba(0,0,0,.85);
+  text-shadow:0 1px 0 rgba(255,255,255,.35),0 2px 4px rgba(0,0,0,.45),0 10px 30px rgba(0,0,0,.75);
 }
 .wordmark__equipment{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px;width:100%;}
 .rule{height:3px;flex:1;max-width:190px;background:rgba(242,138,26,.95);box-shadow:0 8px 18px rgba(242,138,26,.20);}
 .equip{
-  padding:0 18px;font-family:Rajdhani,Inter,sans-serif;font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:32px;
+  padding:0 18px;font-family:Rajdhani,Inter,sans-serif;font-weight:800;letter-spacing:.20em;text-transform:uppercase;font-size:32px;
   background:linear-gradient(90deg,rgba(242,138,26,.95) 0%,rgba(255,200,110,1) 35%,rgba(255,230,170,1) 50%,rgba(255,200,110,1) 65%,rgba(242,138,26,.95) 100%);
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
   text-shadow:0 2px 0 rgba(0,0,0,.55),0 8px 20px rgba(0,0,0,.45),0 0 10px rgba(250,150,38,.18);
