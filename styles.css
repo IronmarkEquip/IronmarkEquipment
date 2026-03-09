@@ -56,19 +56,17 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 
 /* wordmark */
 .wordmark__ironmark{
-  font-family:Oswald,Inter,sans-serif;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  font-family:Oswald,Inter,sans-serif;font-weight:700;letter-spacing:.10em;text-transform:uppercase;
   font-size:92px;line-height:1.0;
-  background:linear-gradient(to bottom,#ffffff 0%,,#eef2f6 45%, #d6dde4 100%);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
-  text-shadow:0 1px 0 rgba(255,255,255,.45),0 2px 6px rgba(0,0,0,.55),0 12px 32px rgba(0,0,0,.85);
+  color: #ffffff;
+  text-shadow:,0 2px 6px rgba(0,0,0,.65),0 12px 30px rgba(0,0,0,.85);
 }
 .wordmark__equipment{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px;width:100%;}
-.rule{height:3px;flex:1;max-width:190px;background:rgba(242,138,26,.95);box-shadow:0 8px 18px rgba(242,138,26,.20);}
+.rule{height:3px;flex:1;max-width:190px;background:#ff9826;box-shadow:0 6px 14px rgba(0,0,0,.5), 0 0 6px rgba(255,152,38,.25);}
 .equip{
   padding:0 18px;font-family:Rajdhani,Inter,sans-serif;font-weight:800;letter-spacing:.20em;text-transform:uppercase;font-size:32px;
-  background:linear-gradient(90deg,rgba(242,138,26,.95) 0%,rgba(255,200,110,1) 35%,rgba(255,230,170,1) 50%,rgba(255,200,110,1) 65%,rgba(242,138,26,.95) 100%);
-  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;
-  text-shadow:0 2px 0 rgba(0,0,0,.55),0 8px 20px rgba(0,0,0,.45),0 0 10px rgba(250,150,38,.18);
+  color: #ff9826;
+  text-shadow:0 2px 6px rgba(0,0,0,.65),0 08px 20px rgba(0,0,0,.55);
 }
 
 /* tagline aligned under equipment group */
