@@ -37,8 +37,9 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
   min-height:calc(100vh - 92px);
   padding-top:92px;
   background:
-    radial-gradient(900px 520px at 30% 30%,rgba(0,0,0,.42),rgba(0,0,0,0) 60%),
-    linear-gradient(180deg,rgba(0,0,0,.44),rgba(0,0,0,.14) 45%,rgba(0,0,0,.52)),
+    radial-gradient(650px 350px at 42% 55%,rgba(0,0,0,.55),rgba(0,0,0,0) 70%),
+    radial-gradient(900px 520px at 40% 35%, rgba(0,0,0,.35), rgba(0,0,0,0) 60%),
+    linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.15) 45%,rgba(0,0,0,.55)),
     url("hero.png") center/cover no-repeat;
 }
 .hero__inner{min-height:calc(100vh - 92px);display:flex;align-items:center;}
