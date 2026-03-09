@@ -58,9 +58,9 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 .wordmark__ironmark{
   font-family:Oswald,Inter,sans-serif;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
   font-size:92px;line-height:1.0;
-  background:linear-gradient(to bottom,#ffffff 0%,#dfe5ea 18%,#9aa3ab 42%,#f0f3f6 68%,#ffffff 100%);
+  background:linear-gradient(to bottom,#ffffff 0%,#f7f9fb 10%,#d7dde3 30%,#aeb6bf 48%,#7f8892 52%, #cfd6dd 70%, #f5f7fa 88%, #ffffff 100%);
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  text-shadow:0 1px 0 rgba(255,255,255,.18),0 3px 0 rgba(0,0,0,.35),0 14px 40px rgba(0,0,0,.85);
+  text-shadow:0 1px 0 rgba(255,255,255,.25),0 2px 0 rgba(0,0,0,.35),0 8px 18px rgba(0,0,0,.55),0 18px 45px rgba(0,0,0,.85);
 }
 .wordmark__equipment{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:10px;width:100%;}
 .rule{height:3px;flex:1;max-width:190px;background:rgba(242,138,26,.95);box-shadow:0 8px 18px rgba(242,138,26,.20);}
