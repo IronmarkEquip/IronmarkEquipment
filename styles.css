@@ -45,7 +45,7 @@ a{color:inherit}.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
 .hero__lockup{width:min(980px,96vw);margin-left:2vw;transform:translateY(28px);}
 
 /* lockup */
-.lockup{display:flex;align-items:center;gap:18px;}
+.lockup{display:flex;align-items:center;gap:10px;}
 .lockup__shield{
   width:335px; transform:translateY(-10px);
   opacity:.98;
